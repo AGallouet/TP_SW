@@ -50,7 +50,7 @@ print("original tensor :", x_sort[ind_inverse])
 
 
 # This line loads the image source_small into an Image object
-image = Image.open("source_small.jpg").convert('RGB')
+image = Image.open("images/source_small.jpg").convert('RGB')
 
 # Transform the image into a torch.tensor (which is a vector in pytorch)
 # It is supported on the chosen above device (cpu or gpu) and 
@@ -87,5 +87,5 @@ x_perm = x_perm.reshape([height, width, 3]).to(dtype = torch.uint8)
 output = x_perm.cpu().numpy()
 
 # Saving my output in RGB style with name "transformed.jpg"
-Image.fromarray(output, mode = 'RGB').save("transformed.jpg")
+Image.fromarray(output, mode = 'RGB').save("images/transformed.jpg")
 
