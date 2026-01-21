@@ -41,7 +41,8 @@ print("Inverse permutation = ", ind_inverse)
 # A way to retrieve the original tensor is thus
 print("original tensor :", x_sort[ind_inverse])
 
-
+# For a random tensor with normal law:
+y = torch.randn(10, device = device)
 
 # -----------------------------------------------------------
 # Now about how to treat RGB image with PIL.Image and pytorch
