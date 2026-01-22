@@ -2,7 +2,10 @@ import torch
 from PIL import Image
 import numpy as np
 
-
+# For installation
+# pip install numpy
+# pip install torch
+# pip install pillow
 
 # Cuda is the GPU device on pytorch,
 # Vectors and matrix computations runs 
