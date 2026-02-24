@@ -20,4 +20,6 @@ The objective of this project is to:
 
 ---
 
+A correction is available in the file `sw_flow_colortransfer.py`
+
 Feel free to adapt or extend the implementation to explore additional applications of Sliced Wasserstein methods.
